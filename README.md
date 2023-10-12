@@ -10,4 +10,4 @@ To make computing and programmming easier for everyone.
 
 ### Setup
 
-## Authors
+- [Initial setup](Setup/LIDo_setup.md) - Anaconda, VScode, GitHub Desktop and more.
