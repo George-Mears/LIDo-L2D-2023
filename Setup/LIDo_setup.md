@@ -18,11 +18,12 @@ Also, if you have experience with Python and programming, makes yourselves known
 
 - - - -
 
-This is a summary of the basic software required to complete the L2D course so far.
+This is a summary of the basic software required to complete the L2D course so far. I would download these in the following order:
 
-<li><a href="#anaconda">Anaconda</a> (required)</li>
-    <li><a href="#vscode">VScode</a> (recommended)</li>
-    <li><a href="#github-desktop">GitHub Desktop</a> (recommended)</li>
+<li><a href="#anaconda">1. Anaconda</a> (required)</li>
+    <li><a href="#vscode">2. VScode</a> (recommended)</li>
+    <li><a href="#github-desktop">3. GitHub Desktop</a> (recommended)</li>
+    <li><a href="#jupiter-notebook">4. Jupiter notebook</a> (required)</li>
     <li><a href="#bonus-more-experienced-users">Bonus </a> (experienced users)</li>
 
 ## Anaconda
@@ -48,9 +49,18 @@ What is Anaconda desktop (for people new to Anaconda and environments)?
 
 1. Go to: https://www.anaconda.com/download
 
-2. 
+2. Click download for Mac (M1/M2)
 
 3. Follow installation steps
+
+4. to check correct istallation - open terminal and `(base)` should show up
+
+    * e.g. `(base) macbooks-MacBook-Pro:~ macbook$`
+  
+5. This is your base conda environment - you can activate it and deactivate it by the following:
+   
+   * `conda activate` - to activate base environment
+   * `conda deactivate` - to deactivate base environment
 
 ## VScode
 
@@ -93,7 +103,30 @@ Why GitHub Desktop?
 
 1. Go to: https://desktop.github.com/
 
-2. 
+2. Click download for MacOS
+  
+3. Move GitHub desktop from downloads folder to applications folder
+  
+4. Follow installation steps
+
+5. Sign into GitHub.com
+
+6. If everything ran smoothly you should have a GitHub folder in your Documents folder on your laptop
+
+## Jupiter Notebook
+
+The IPython Notebook is now known as the Jupyter Notebook. It is an interactive computational environment, in which you can combine code execution, rich text, mathematics, plots and rich media. For more details on the Jupyter Notebook, please see the Jupyter website.
+
+File extension `.ipynb`
+
+1. So once VScode is open, create a new file with the file extension `.ipynb` and save it. 
+
+2. This will trigger a warning to install things required for a jupiter notebook.
+
+3. Install ipykernal for pythoon3 and certain pip packages
+
+4. Type `print("Hello world)"` in one of the coding (python) cells and run the cell (clck play button or shift + enter)
+
 
 ## Bonus (more experienced users)
 
